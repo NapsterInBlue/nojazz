@@ -2,11 +2,11 @@ import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-    description = long_description.split('\n')[2]
+    description = long_description.split("\n")[2]
 
 setuptools.setup(
     name="nojazz",
-    version="0.0.1",
+    version="0.0.2",
     author="NapsterInBlue",
     author_email="napsterinblue@gmail.com",
     description=description,
@@ -19,7 +19,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=[
-        'pandas'
-    ]
+    install_requires=["pandas"],
 )
