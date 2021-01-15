@@ -5,3 +5,6 @@ __pycache__/
 # packaging stuff
 dist/
 nojazz.egg-info/
+
+# conf
+nojazz_conf.py
