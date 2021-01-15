@@ -1,3 +1,7 @@
 # dev stuff
 .vscode/
 __pycache__/
+
+# packaging stuff
+dist/
+nojazz.egg-info/
