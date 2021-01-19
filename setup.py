@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nojazz",
-    version="0.0.2",
+    version="0.0.3",
     author="NapsterInBlue",
     author_email="napsterinblue@gmail.com",
     description=description,
